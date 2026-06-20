@@ -1,57 +1,201 @@
 <!DOCTYPE html>
-<!-- Abdul Shakoor - May 31, 2026 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snow Fever Ski and Board School</title>
+    <style>
+        /* Outer page layout styling */
+        body {
+            background-color: #dfd4b9; /* Outer cream/tan border background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Main container layout */
+        #container {
+            background-color: #5b8fd6; /* Main blue background */
+            width: 100%;
+            max-width: 960px;
+            padding: 25px;
+            box-sizing: border-box;
+            border: 1px solid #4a7cbd;
+        }
+
+        /* Top header section banner card block */
+        .header-block {
+            background-color: #6da2eb; /* Lighter blue header banner background */
+            overflow: auto; /* Clears floated elements internally */
+            margin-bottom: 20px;
+        }
+
+        /* Banner layout image configuration */
+        .header-img {
+            float: left;
+            width: 280px;
+            height: auto;
+            display: block;
+        }
+
+        /* Banner title typography grouping */
+        .header-text {
+            float: left;
+            padding: 25px 30px;
+            color: #ffffff;
+        }
+
+        .header-text h1 {
+            font-size: 32px;
+            margin: 0 0 15px 0;
+            font-weight: bold;
+        }
+
+        .header-text h2 {
+            font-size: 20px;
+            font-style: italic;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        /* Navigation link menu row styling */
+        nav {
+            margin-bottom: 35px;
+        }
+
+        nav a {
+            color: #1a3d75; /* Dark blue links */
+            text-decoration: underline;
+            margin-right: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        /* Main description segments styling */
+        main {
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        .section-block {
+            margin-bottom: 30px;
+        }
+
+        .section-block h3 {
+            font-size: 20px;
+            margin: 0 0 12px 0;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        .section-block p {
+            font-size: 13px;
+            margin: 0;
+            color: #e2ecf8; /* Soft white/light blue text readability color tint */
+        }
+
+        /* Registration and content address block configuration */
+        .registration-details {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #e2ecf8;
+        }
+
+        .registration-details a {
+            color: #1a3d75;
+            text-decoration: underline;
+        }
+
+        .registration-details a:hover {
+            color: #ffffff;
+        }
+
+        /* Bottom layout footer alignment */
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 11px;
+            color: #1a3d75;
+            line-height: 1.8;
+        }
+
+        footer a {
+            color: #1a3d75;
+            text-decoration: underline;
+        }
+
+        footer a:hover {
+            color: #ffffff;
+        }
+    </style>
 </head>
+<body>
 
-<body id="top">
+    <div id="container">
 
-    <header>
-        <a href="http://www.breckenridge.com">
-            <img src="ski03.jpg" alt="Snow Fever Ski and Board School" width="540" height="360">
-        </a>
-        <h1>Snow Fever Ski and Board School</h1>
-        <h2>Let it snow, let it snow, let it snow</h2>
-    </header>
+        <div class="header-block">
+            <img src="ski03.jpg" alt="Children skiing and snowboarding layout snippet" class="header-img">
+            <header class="header-text">
+                <h1>Snow Fever Ski and Board School</h1>
+                <h2>Let it snow, let it snow, let it snow</h2>
+            </header>
+        </div>
 
-    <nav>
-        <a href="events.html">Events</a> | 
-        <a href="lessons.html">Lessons</a> | 
-        <a href="snowreports.html">Snow Reports</a> | 
-        <a href="employment.html">Employment</a>
-    </nav>
+        <nav>
+            <a href="#events">Events</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#reports">Snow Reports</a>
+            <a href="#employment">Employment</a>
+        </nav>
 
-    <main id="content">
-        <h3>Children's Lessons</h3>
-        <p>Children's full-day lessons meet from 10 am through 3:30 pm and include lift access, rentals (ski or snowboard), and lunch. All children (ages 4-12) are welcome regardless of ability or prior experience. Our expert ski and snowboard instructors provide special care and attention to teach children the correct way to ski and ride, from the basics of carving turns to safety instruction to advanced lessons and multi-week programs. We focus on having fun in a safe and responsible way!</p>
+        <main>
+            
+            <div class="section-block">
+                <h3>Children's Lessons</h3>
+                <p>Children's full day lessons meet from 10am through 3:30pm and include lift access, rentals (ski or snowboard) and lunch. All children (ages 4-12) are welcome regardless of ability or prior experience. Our expert ski and snowboard instructors provide special care and attention to teach children the correct way to ski and ride, from basics of carving turns to safety instruction to advanced lessons and multi-week programs. We focus on having fun in a safe and responsible way!</p>
+            </div>
 
-        <h3>Terrain Park Lessons</h3>
-        <p>Our terrain park lessons meet from 12:30 pm to 4 pm at the base of the Powder Keg Terrain Park and include lift access, rentals (ski or snowboard), and an afternoon snack. We start with the basics and progress through all skill levels. Learn how to ride the rails, half pipe, and jumps. Must be 13 years old. Our proven techniques will teach you how to maneuver through any terrain park in a fun and safe way!</p>
+            <div class="section-block">
+                <h3>Terrain Park Lessons</h3>
+                <p>Our terrain park lessons meet from 12:30pm to 4pm at the base of the Powder Keg Terrain Park and include lift access, rentals (ski or snowboard), and an afternoon snack. We start with the basics and progress through all skill levels. Learn how to ride the rails, half pipe, and jumps. Must be 13 years old. Our proven techniques will teach you how to maneuver through any terrain park in a fun and safe way!</p>
+            </div>
 
-        <h3>Adult Lessons</h3>
-        <p>Adult full-day lessons from 9 am through 3 pm include lift access, rentals (ski or snowboard), and lunch. Adults are divided by ability and experience. We have expert instructors for all levels!</p>
+            <div class="section-block">
+                <h3>Adult Lessons</h3>
+                <p>Adult full day lessons from 9am through 3pm include lift access, rentals (ski or snowboard) and lunch. Adults are divided by ability and experience. We have expert instructors for all levels!</p>
+            </div>
 
-        <h3>Cost</h3>
-        <p>All of our lessons are $100/day. If you prepay for three full days, you will receive a free season pass to keep practicing your skiing or snowboarding skills for the rest of the season!</p>
+            <div class="section-block">
+                <h3>Cost</h3>
+                <p>All of our lessons are $100/day. If you prepay for three full days you will receive a free season pass to keep practicing your skiing or snowboarding skills for the rest of the season!</p>
+            </div>
 
-        <h3>Registration</h3>
-        <p>Call or email our Ski School Manager: Kent Hoiberg<br>
-        1001 West Main Street<br>
-        Breckenridge, Colorado 80425</p>
+            <div class="section-block">
+                <h3>Registration</h3>
+                <div class="registration-details">
+                    <div>Call or email our Ski School Manager: Kent Holberg</div>
+                    <div>1001 West Main Street</div>
+                    <div>Breckenridge, Colorado 80425</div>
+                    <br>
+                    <div>Phone: <a href="tel:1-800-555-4754">1-800-555-4SKI</a></div>
+                    <div>E-mail: <a href="mailto:kent@snowfever.com">Write to Kent</a></div>
+                </div>
+            </div>
 
-        <p>Phone: <a href="tel:18005557544">1-800-555-4SKI</a><br>
-        E-mail: <a href="mailto:kent@ilovesnow.com">Write to Kent</a></p>
+        </main>
 
-        <p>Our Sponsor: <a href="http://www.snow.com">snow.com</a></p>
-    </main>
+        <footer>
+            <div>Our Sponsor: <a href="#sponsor">snow.com</a></div>
+            <div><a href="#lessons-links">Lessons</a> | <a href="#slip-info">Slip</a> | <a href="#rental-agreement">Rental Agreement</a></div>
+        </footer>
 
-    <footer>
-        <a href="#content">Lessons</a> 
-        <a href="#top">Top</a> 
-        <a href="legal.pdf">Rental Agreement</a>
-    </footer>
+    </div>
 
 </body>
 </html>
